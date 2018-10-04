@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  LensKit &mdash; {{page.title}}
+</title>
+<link rel="icon" type="image/png" href="//lenskit.org/s/lenskit-mini.png">
+<link rel="stylesheet" href="/s/site.css">
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [
+      'Bitter:400,400i,700:latin',
+      'Tinos:400,700,400italic:greek,latin',
+      'PT+Sans:400,700:latin',
+      'Inconsolata:400,700:latin',
+      'PT+Sans+Caption:400,700:latin'
+    ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();</script>
+</head>
+<body>
+<div class="fixed">
+  <nav class="pure-menu nav-menu pure-menu-horizontal" role="navigation">
+    <a class="pure-menu-heading pure-menu-link" href="/">LensKit</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item"><a class="pure-menu-link" href="/documentation/" data-match="re:^/(documentation|releases)/">Documentation</a></li>
+      <li class="pure-menu-item"><a class="pure-menu-link" href="//lenskit.org/">LensKit</a>
+    </ul>    </section>
+  </nav>
+</div>
+<article class="main {{bodyWidth}} columns">
+  {{{contents}}}
+</article>
+<footer>
+  Copyright © 2018 Boise State University and LensKit Contributors.<br>
+  Problems? Suggestions? This site is <a href="https://github.com/lenskit/lenskit.org">public on Github</a>.
+</footer>
+</body>
+</html>
