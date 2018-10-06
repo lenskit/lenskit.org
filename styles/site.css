@@ -145,3 +145,7 @@ footer {
   padding: 0 2em 0 4em;
   text-indent: -2em;
 }
+
+pre {
+  padding-left: 2em;
+}

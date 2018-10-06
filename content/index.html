@@ -25,29 +25,22 @@ scripts:
 <div class="element infobox">
 <section>
 <h2>Get <span itemprop="name">LensKit</span></h2>
-<ul class='highlights'>
-    <li><a itemprop="downloadUrl" href="https://bintray.com/lenskit/lenskit-releases/lenskit/{{site.data.lenskit.version}}/view">Download latest binaries</a> (<a itemprop="releaseNotes" href="/releases/lenskit-{{site.data.lenskit.version}}.html">version <span itemprop="softwareVersion">{{site.data.lenskit.version}}</span></a>)
-    <li>Latest version: <a href="/releases/lenskit-{{site.data.lenskit.version}}.html">{{site.data.lenskit.version}}</a>
-    {% if site.data.lenskit.prerelease %}
-    <li>Latest prelease: <a href="/releases/lenskit-{{site.data.lenskit.next}}.html">{{site.data.lenskit.prerelease}}</a>
-    {% endif %}
-    <li><a href="http://search.maven.org/#artifactdetails|org.grouplens.lenskit|lenskit-all|2.1-M4|jar">Get from Maven Central</a>
-    <li><a href="https://github.com/grouplens/lenskit">Get the source on GitHub</a>
-</ul>
-<div class="read-more"><a href="download/">More download information &rightarrow;</a></div>
+<pre class=demo><code>conda install -c lenskit lenskit</code></pre>
+<p>Or, if you prefer plain Pip:</p>
+<pre class=demo><code>pip install lenskit</code></pre>
 </section>
 <section>
 <h2>Learn about LensKit</h2>
 <ul class='highlights'>
-    <li><a href="http://www.youtube.com/watch?v=ug_JfORWK7w">Watch the video</a>
-    <li><a itemprop="softwareHelp" href="documentation/">Read the documentation</a>
+    <li><a itemprop="softwareHelp" href="https://lkpy.lenskit.org">Read the documentation</a>
+    <li><a href="https://arxiv.org/abs/1809.03125">Read the paper</a></li>
 </ul>
 </section>
 <section>
 <h2>Connect with LensKit</h2>
 <ul class='highlights'>
     <li>Join our <a itemprop="discussionUrl" href="https://groups.google.com/forum/#!forum/lenskit-recsys">mailing list</a>
-    <li>Report and discuss <a href="https://github.com/grouplens/lenskit/issues">issues on GitHub</a>
+    <li>Report and discuss <a href="https://github.com/lenskit/lkpy/issues">issues on GitHub</a>
     <li><a href="https://twitter.com/intent/user?screen_name=LensKitRS">Follow LensKit on Twitter</a>
 </ul>
 </section>
