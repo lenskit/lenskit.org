@@ -83,7 +83,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 
-  .element {
+  section, .element {
     width: 100%;
     text-align: center;
   }
@@ -113,6 +113,11 @@ footer {
   .history {
     font-style: italic;
   }
+  .infobox {
+    &, section {
+      text-align: left;
+    }
+  }
 
   @media(--desktop) {
     .banner {
@@ -124,6 +129,13 @@ footer {
     .usecase {
       max-width: 4.5in;
       width: auto;
+    }
+
+    .infobox {
+      width: 60%;
+    }
+    .twitterbox {
+      width: 40%;
     }
   }
 }
