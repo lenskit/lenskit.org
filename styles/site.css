@@ -14,6 +14,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-size: 12pt;
+  line-height: 1.4em;
 }
 
 /* top navigation */
@@ -60,6 +62,12 @@ body {
   padding: 1em;
 }
 
+/* body */
+.shell article.main {
+  max-width: 9in;
+  margin: 0 auto;
+}
+
 /* footer */
 footer {
   text-align: center;
@@ -75,9 +83,12 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 
-  .banner {
-    text-align: center;
+  .element {
     width: 100%;
+    text-align: center;
+  }
+
+  .banner {
 
     .logo {
       margin-top: 1em;
@@ -92,13 +103,15 @@ footer {
   }
 
   .usecase {
-    text-align: center;
-    width: 100%;
     margin-top: 1em;
 
     .uc-logo {
       height: 1in;
     }
+  }
+
+  .history {
+    font-style: italic;
   }
 
   @media(--desktop) {
@@ -109,8 +122,14 @@ footer {
     }
 
     .usecase {
-      min-width: 50%;
       max-width: 4.5in;
+      width: auto;
     }
   }
+}
+
+/* citations */
+.citation {
+  padding: 0 2em 0 4em;
+  text-indent: -2em;
 }
