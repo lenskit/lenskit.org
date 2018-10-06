@@ -37,8 +37,8 @@ export const build = gulp.parallel(pages, staticFiles, styles);
 export default build;
 
 export function watch() {
-  gulp.watch('styles/*.css', 'styles');
-  gulp.watch(['content/**', 'layouts/*'], 'pages');
+  gulp.watch('styles/*.css', styles);
+  gulp.watch(['content/**', 'layouts/*'], pages);
 }
 
 export function serve() {
