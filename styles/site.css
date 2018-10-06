@@ -1,7 +1,116 @@
 :root {
-  --text-font: "Bitter"
+  --text-font: "Bitter";
+
+  --head-bg: #2e3436;
+  --head-text: #eeeeec;
 }
 
+@custom-media --desktop (min-width: 700px);
+
 html {
-  font-family: var(--text-font)
+  font-family: var(--text-font);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top navigation */
+.top-head {
+  background-color: var(--head-bg);
+  color: var(--head-text);
+  padding: 0 1em;
+
+  a:link, a:visited {
+    color: var(--head-text);
+  }
+
+  @media(--desktop) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 1rem;
+      display: flex;
+    }
+
+    nav {
+      flex-grow: 1;
+      display: flex;
+      justify-content: end;
+      
+      ul {
+        display: flex;
+        flex-direction: row;
+
+        li {
+          list-style: none;
+          padding: 0 1ex;
+        }
+      }
+    }
+  }
+}
+
+/* main content  */
+.shell {
+  padding: 1em;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  padding: 0 1rem 1rem;
+}
+
+/* home page banner */
+.homepage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .banner {
+    text-align: center;
+    width: 100%;
+
+    .logo {
+      margin-top: 1em;
+      width: 90%;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 1.2rem;
+      margin-top: 1em;
+    }
+  }
+
+  .usecase {
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+
+    .uc-logo {
+      height: 1in;
+    }
+  }
+
+  @media(--desktop) {
+    .banner {
+      .logo {
+        width: 5in;
+      }
+    }
+
+    .usecase {
+      min-width: 50%;
+      max-width: 4.5in;
+    }
+  }
 }

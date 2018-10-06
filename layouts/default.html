@@ -29,18 +29,24 @@
   })();</script>
 </head>
 <body>
-<div class="fixed">
-  <nav class="pure-menu nav-menu pure-menu-horizontal" role="navigation">
-    <a class="pure-menu-heading pure-menu-link" href="/">LensKit</a>
-    <ul class="pure-menu-list">
-      <li class="pure-menu-item"><a class="pure-menu-link" href="/documentation/" data-match="re:^/(documentation|releases)/">Documentation</a></li>
-      <li class="pure-menu-item"><a class="pure-menu-link" href="//lenskit.org/">LensKit</a>
-    </ul>    </section>
+<header class=top-head>
+  <h1><a href="/">LensKit</a></h1>
+  <nav class="top-nav" role="navigation">
+    <ul class=menu>
+      <li><a href="/documentation/" data-match="re:^/(documentation|releases)/">Documentation</a></li>
+      <li><a href="//lenskit.org/">LensKit</a>
+    </ul>
   </nav>
+</header>
+<div class=shell>
+  {{#if bare}}
+    {{{contents}}}
+  {{else}}
+  <article class="main">
+    {{{contents}}}
+  </article>
+  {{/if}}
 </div>
-<article class="main {{bodyWidth}} columns">
-  {{{contents}}}
-</article>
 <footer>
   Copyright © 2018 Boise State University and LensKit Contributors.<br>
   Problems? Suggestions? This site is <a href="https://github.com/lenskit/lenskit.org">public on Github</a>.
