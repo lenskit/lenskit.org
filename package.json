@@ -26,6 +26,9 @@
   },
   "dependencies": {
     "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "extend": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-buffer": "0.0.2",
@@ -43,5 +46,10 @@
     "postcss-custom-media": "^7.0.4",
     "postcss-custom-properties": "^8.0.8",
     "postcss-nested": "^4.1.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }

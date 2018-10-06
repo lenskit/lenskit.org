@@ -8,18 +8,18 @@ const args = require('minimist')(process.argv.slice(2));
 
 const outputDir = args['dest-dir'] || '_site';
 
-gulp.task('static', function() {
+export function staticFiles() {
   return gulp.src('static/**')
              .pipe($.changed(outputDir))
              .pipe(gulp.dest(outputDir));
-})
+}
 
-gulp.task('pages', function() {
+export function pages() {
   const pages = require('./lib/pages');
   return pages.render('content', outputDir, 'layouts');
-});
+}
 
-gulp.task('styles', function() {
+export function styles() {
   return gulp.src('styles/*.css')
              .pipe($.ignore.exclude('_*.css'))
              .pipe($.sourcemaps.init())
@@ -30,13 +30,18 @@ gulp.task('styles', function() {
              ]))
              .pipe($.sourcemaps.write('.'))
              .pipe(gulp.dest(path.join(outputDir, 's')));
-});
+}
 
-gulp.task('build', gulp.parallel('pages', 'static', 'styles'));
+export const build = gulp.parallel(pages, staticFiles, styles);
 
-gulp.task('default', gulp.series('build'));
+export default build;
 
-gulp.task('serve', function() {
+export function watch() {
+  gulp.watch('styles/*.css', 'styles');
+  gulp.watch(['content/**', 'layouts/*'], 'pages');
+}
+
+export function serve() {
   var testServer = require('./lib/test-server');
   testServer(outputDir);
-});
+}
