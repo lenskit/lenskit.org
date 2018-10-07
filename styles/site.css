@@ -37,18 +37,21 @@ body {
     h1 {
       font-size: 1rem;
       display: flex;
+      flex-grow: 0;
     }
 
     nav {
-      flex-grow: 1;
-      display: flex;
-      justify-content: end;
+      flex-grow: 0;
       
       ul {
         display: flex;
         flex-direction: row;
+        justify-content: end;
+        width: 100%;
 
         li {
+          text-align: right;
+          display: block;
           list-style: none;
           padding: 0 1ex;
         }
@@ -78,7 +81,6 @@ footer {
 
 /* home page banner */
 .homepage {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
