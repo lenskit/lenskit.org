@@ -28,6 +28,17 @@ body {
     color: var(--head-text);
   }
 
+  h1 {
+    font-size: 1rem;
+  }
+  ul {
+    padding-left: 0;
+  }
+  ul li {
+    list-style: circle;
+    list-style-position: inside;
+  }
+
   @media(--desktop) {
     display: flex;
     flex-direction: row;
@@ -35,7 +46,6 @@ body {
     justify-content: space-between;
 
     h1 {
-      font-size: 1rem;
       display: flex;
       flex-grow: 0;
     }
@@ -81,6 +91,8 @@ footer {
 
 /* home page banner */
 .homepage {
+  display: flex;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -134,10 +146,13 @@ footer {
     }
 
     .infobox {
-      width: 60%;
+      width: 50%;
+      padding-right: 2em;
+      box-sizing: border-box;
     }
+
     .twitterbox {
-      width: 40%;
+      width: 35%;
     }
   }
 }
