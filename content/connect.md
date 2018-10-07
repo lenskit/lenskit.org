@@ -1,6 +1,5 @@
 ---
 title: Connect
-layout: default
 scripts:
 - //platform.twitter.com/widgets.js
 ---
