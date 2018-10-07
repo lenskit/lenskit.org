@@ -1,1 +1,1 @@
-/documentation/ https://java.lenskit.org/documentation/
+/documentation/* https://java.lenskit.org/documentation/:splat
