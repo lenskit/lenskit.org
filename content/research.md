@@ -75,6 +75,8 @@ Is your project missing from this list? [Let us know](/connect/).
 
 -   Nevena Dragovic, Ion Madrazo Azpiazu, and Maria Soledad Pera. 2018. [From Recommendation to Curation: When the System Becomes Your Personal Docent](http://ceur-ws.org/Vol-2225/paper6.pdf). In _Proceedings of 5th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2018)_ at RecSys 2018, 37–44.
 
+-   Bagher Rahimpour Cami, Hamid Hassanpour, and Hoda Mashayekhi. 2018. User preferences modeling using dirichlet process mixture model for a content-based recommender system. *Knowledge-Based Systems* (September 2018). DOI:[10.1016/j.knosys.2018.09.028](https://doi.org/10.1016/j.knosys.2018.09.028).
+
 -   Ludovik Coba, Panagiotis Symeonidis, and Markus Zanker. 2018. Replicating and Improving Top-N Recommendations in Open Source Packages. In *Proceedings of the 8th International Conference on Web Intelligence, Mining and Semantics* (WIMS ’18), 40:1–40:7. doi:[10.1145/3227609.3227671](http://dx.doi.org/10.1145/3227609.3227671)
 
 -   Yongjian Yang, Yuanbo Xu, En Wang, Jiayu Han, and Zhiwen Yu. 2018. Improving Existing Collaborative Filtering Recommendations via Serendipity-Based Algorithm. *IEEE Trans. Multimedia* **20**, 7 (July 2018), pp. 1888–1900.
