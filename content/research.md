@@ -73,6 +73,8 @@ Is your project missing from this list? [Let us know](/connect/).
 
 ### 2018
 
+-   Denis Kotkov, Jari Veijalainen, and Shuaiqiang Wang. 2018. How does serendipity affect diversity in recommender systems? A serendipity-oriented greedy algorithm. <cite>Computing</cite> (December 2018). DOI:[10.1007/s00607-018-0687-5](https://doi.org/10.1007/s00607-018-0687-5)
+
 -   Nevena Dragovic, Ion Madrazo Azpiazu, and Maria Soledad Pera. 2018. [From Recommendation to Curation: When the System Becomes Your Personal Docent](http://ceur-ws.org/Vol-2225/paper6.pdf). In _Proceedings of 5th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2018)_ at RecSys 2018, 37–44.
 
 -   Bagher Rahimpour Cami, Hamid Hassanpour, and Hoda Mashayekhi. 2018. User preferences modeling using dirichlet process mixture model for a content-based recommender system. *Knowledge-Based Systems* (September 2018). DOI:[10.1016/j.knosys.2018.09.028](https://doi.org/10.1016/j.knosys.2018.09.028).
