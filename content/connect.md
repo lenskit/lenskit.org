@@ -15,8 +15,6 @@ There are several ways you can connect with LensKit, communicate with other user
     This list is where we discuss LensKit development and answer questions
     about how to use LensKit.
 
--   [Chat with us on Gitter](https://gitter.im/lenskit/lenskit).
-
 -   [Contribute on GitHub](https://github.com/grouplens/lenskit/), where we
     have the source code and issue tracker.  We take new contributions via
     GitHub pull requests.
