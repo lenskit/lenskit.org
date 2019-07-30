@@ -71,6 +71,10 @@ This list is also available as a [Zotero group collection][zotero].
 Is your project missing from this list? [Let us know](/connect/).
 </aside>
 
+### 2019
+
+-   Marco Polignano, Pierpaolo Basile, Marco de Gemmis, and Giovanni Semeraro. 2019. Social Tags and Emotions as main Features for the Next Song To Play in Automatic Playlist Continuation. In Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization (UMAP'19 Adjunct). ACM, New York, NY, USA, 235-239. DOI: https://doi.org/10.1145/3314183.3323455
+
 ### 2018
 
 -   Denis Kotkov, Jari Veijalainen, and Shuaiqiang Wang. 2018. How does serendipity affect diversity in recommender systems? A serendipity-oriented greedy algorithm. <cite>Computing</cite> (December 2018). DOI:[10.1007/s00607-018-0687-5](https://doi.org/10.1007/s00607-018-0687-5)
