@@ -24,7 +24,8 @@ BibTeX:
    institution={Boise State University},
    author={Ekstrand, Michael D.},
    year={2018},
-   month={Aug}
+   month={Aug},
+   extra={arXiv:1809.03125}
 }
 ~~~
 
