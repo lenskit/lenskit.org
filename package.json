@@ -4,7 +4,7 @@
   "description": "LensKit Web Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,13 @@
   "author": "Michael Ekstrand <md@ekstrandom.net> (https://md.ekstrandom.net/)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/lenskit/mooc.lenskit.org/issues"
+    "url": "https://github.com/lenskit/lenskit.org/issues"
   },
-  "homepage": "https://github.com/lenskit/mooc.lenskit.org#readme",
+  "homepage": "https://github.com/lenskit/lenskit.org#readme",
   "devDependencies": {
     "eslint": "^5.6.1",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "netlify-cli": "^2.40.0"
   },
   "jshintConfig": {
     "esversion": 6,
@@ -40,7 +41,6 @@
     "gulp-load-plugins": "^1.5.0",
     "gulp-markdown": "^1.2.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
     "handlebars": "^4.0.5",
     "postcss-custom-media": "^7.0.4",

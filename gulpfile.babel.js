@@ -40,8 +40,3 @@ export function watch() {
   gulp.watch('styles/*.css', styles);
   gulp.watch(['content/**', 'layouts/*'], pages);
 }
-
-export function serve() {
-  var testServer = require('./lib/test-server');
-  testServer(outputDir);
-}
