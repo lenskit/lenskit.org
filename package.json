@@ -42,7 +42,7 @@
     "gulp-markdown": "^1.2.0",
     "gulp-postcss": "^8.0.0",
     "gulp-sourcemaps": "^2.6.4",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.3.0",
     "postcss-custom-media": "^7.0.4",
     "postcss-custom-properties": "^8.0.8",
     "postcss-nested": "^4.1.0"
