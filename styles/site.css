@@ -102,6 +102,12 @@ footer {
     text-align: center;
   }
 
+  .uses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .banner {
 
     .logo {
@@ -140,9 +146,14 @@ footer {
       }
     }
 
+    .uses {
+      flex-direction: row;
+    }
+
     .usecase {
-      max-width: 4.5in;
+      max-width: 400px;
       width: auto;
+      padding: 0 2em;
     }
 
     .infobox {
