@@ -9,22 +9,19 @@ LensKit is intended to be particularly useful in recommender systems research.
 If you use LensKit in published research, cite:
 
 <div class="citation" markdown="span">
-Michael D. Ekstrand. 2018. The LKPY Package for Recommender Systems Experiments: Next-Generation Tools and Lessons Learned from the LensKit Project. <cite>Computer Science Faculty Publications and Presentations</cite> 147. Boise State University. Presented at the REVEAL 2018 Workshop on Offline Evaluation for Recommender Systems at RecSys 2018. doi:<a href="10.18122/cs_facpubs/147/boisestate">10.18122/cs_facpubs/147/boisestate</a>. arXiv:<a href="https://arxiv.org/abs/1809.03125">1809.03125</a> [cs.IR].
+Michael D. Ekstrand. 2020. LensKit for Python: Next-Generation Software for Recommender Systems Experiments. In <cite>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</cite> (CIKM '20). doi [10.1145/3340531.3412778](https://dx.doi.org/10.1145/3340531.3412778). arXiv:[1809.03125](https://arxiv.org/abs/1809.03125) [cs.IR]. 
 </div>
 
 BibTeX:
 
 ~~~bibtex
-@techreport{LKPY,
-   title={The LKPY Package for Recommender Systems Experiments},
-   url={https://md.ekstrandom.net/pubs/lkpy},
-   DOI={10.18122/cs_facpubs/147/boisestate},
-   type={Computer Science Faculty Publications and Presentations},
-   number=147,
-   institution={Boise State University},
+@inproceedings{LKPY,
+   title={LensKit for Python: Next-Generation Software for Recommender Systems Experiments},
+   booktitle={Proceedings of the 29th ACM International Conference on Information and Knowledge Management},
+   DOI={10.1145/3340531.3412778},
    author={Ekstrand, Michael D.},
-   year={2018},
-   month={Aug},
+   year={2020},
+   month={Oct},
    extra={arXiv:1809.03125}
 }
 ~~~
