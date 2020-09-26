@@ -26,7 +26,7 @@
     "node": true
   },
   "dependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^10",
     "esm": "^3.2.25",
     "extend": "^3.0.0",
     "gulp": "^4.0.0",
@@ -38,12 +38,12 @@
     "gulp-layout": "0.0.4",
     "gulp-load-plugins": "^2.0.2",
     "gulp-markdown": "^5.0.1",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "handlebars": "^4.0.5",
     "postcss-custom-media": "^7.0.4",
-    "postcss-custom-properties": "^9.1.1",
-    "postcss-nested": "^4.1.0"
+    "postcss-custom-properties": "^10",
+    "postcss-nested": "^5"
   },
   "babel": {
     "presets": [
