@@ -27,9 +27,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.1.5",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+    "esm": "^3.2.25",
     "extend": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-buffer": "0.0.2",
