@@ -9,7 +9,7 @@ LensKit is intended to be particularly useful in recommender systems research.
 If you use LensKit in published research, cite:
 
 <div class="citation" markdown="span">
-Michael D. Ekstrand. 2020. LensKit for Python: Next-Generation Software for Recommender Systems Experiments. In <cite>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</cite> (CIKM '20). doi [10.1145/3340531.3412778](https://dx.doi.org/10.1145/3340531.3412778). arXiv:[1809.03125](https://arxiv.org/abs/1809.03125) [cs.IR]. 
+Michael D. Ekstrand. 2020. LensKit for Python: Next-Generation Software for Recommender Systems Experiments. In <cite>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</cite> (CIKM '20). doi <a href="https://dx.doi.org/10.1145/3340531.3412778">10.1145/3340531.3412778</a>. arXiv:<a href="https://arxiv.org/abs/1809.03125">1809.03125</a> [cs.IR]. 
 </div>
 
 BibTeX:
