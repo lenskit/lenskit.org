@@ -26,7 +26,7 @@ BibTeX:
 }
 ~~~
 
-<script src="https://bibbase.org/show?bib=https://paperpile.com/eb/xbZnidMhZj&jsonp=1"></script> 
+<script src="https://bibbase.org/show?bib=https://paperpile.com/eb/xbZnidMhZj&jsonp=1&owner=none&theme=simple"></script> 
 
 ## Original LensKit (Java)
 
@@ -68,4 +68,4 @@ LensKit has been used in a number of published papers.  In this list, we have at
 Is your project missing from this list? [Let us know](/connect/).
 </aside>
 
-<script src="https://bibbase.org/show?bib=https://paperpile.com/eb/WvirmedPPv&jsonp=1"></script> 
+<script src="https://bibbase.org/show?bib=https://paperpile.com/eb/WvirmedPPv&jsonp=1&owner=none&theme=simple"></script> 
