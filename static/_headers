@@ -1,2 +1,2 @@
 /*
-    Content-Security-Policy: script-src 'self' https://bibbase.org https://platform.twitter.com https://gc.zgo.at https://ajax.googleapis.com/ https://cdnjs.cloudflare.com/ 'unsafe-inline'; child-src 'self' https://twitter.com;
+    Content-Security-Policy: script-src 'self' https://bibbase.org https://platform.twitter.com https://gc.zgo.at https://ajax.googleapis.com/ https://cdnjs.cloudflare.com/ 'unsafe-inline'; child-src 'self' https://platform.twitter.com;
