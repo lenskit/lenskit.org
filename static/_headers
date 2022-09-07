@@ -1,0 +1,2 @@
+/*
+    Content-Security-Policy: script-src 'self' https://bibbase.org https://twitter.com https://gc.zgo.at; child-src 'self' https://twitter.com;
