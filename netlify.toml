@@ -1,4 +1,4 @@
 [build]
 publish = "_site"
 command = "npm run build"
-environment = { NODE_VERSION = "10", NODE_ENV = "production" }
+environment = { NODE_VERSION = "18", NODE_ENV = "production" }
