@@ -65,7 +65,7 @@ We would also appreciate it if you could send a PDF and citation for your articl
 LensKit has been used in a number of published papers.  In this list, we have attempted to collect published research that has used the LensKit software in some capacity.
 
 <aside markdown="span">
-Is your project missing from this list? [Let us know](/connect/).
+Is your project missing from this list? <a href="/connect/">Let us know</a>.
 </aside>
 
 <script src="https://bibbase.org/show?bib=https://lenskit.org/java-users.bib&jsonp=1&owner=none&theme=simple"></script> 
