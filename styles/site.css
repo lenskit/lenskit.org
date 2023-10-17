@@ -1,5 +1,8 @@
+@import url(https://fonts.bunny.net/css?family=bitter:400,400i,700|inconsolata:400,700);
+
 :root {
-  --text-font: "Bitter";
+  --text-font: "Bitter", serif;
+  --code-font: "Inconsolata", monospace;
 
   --head-bg: #2e3436;
   --head-text: #eeeeec;
@@ -174,6 +177,10 @@ footer {
   text-indent: -2em;
 }
 
+/* code */
+code, pre, tt {
+  font-family: var(--code-font);
+}
 pre {
   padding-left: 2em;
 }
