@@ -26,7 +26,7 @@ BibTeX:
 }
 ~~~
 
-<script src="https://bibbase.org/show?bib=https://lenskit.org/lkpy-users.bib&jsonp=1&owner=none&theme=simple"></script> 
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F6655%2Fcollections%2F3TB3KT36%2Fitems%3Fkey%3DVFvZhZXIoHNBbzoLZ1IM2zgf%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
 
 ## Original LensKit (Java)
 
@@ -68,4 +68,4 @@ LensKit has been used in a number of published papers.  In this list, we have at
 Is your project missing from this list? <a href="/connect/">Let us know</a>.
 </aside>
 
-<script src="https://bibbase.org/show?bib=https://lenskit.org/java-users.bib&jsonp=1&owner=none&theme=simple"></script> 
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F6655%2Fcollections%2FTJPPJ92X%2Fitems%3Fkey%3DVFvZhZXIoHNBbzoLZ1IM2zgf%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
