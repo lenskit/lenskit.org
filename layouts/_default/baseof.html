@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    LensKit &mdash; {{ .Title }}
+  </title>
+  {{ with resources.Get "lk-logo.png" | fingerprint }}
+  <link rel="icon" type="image/png" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "site.scss" | toCSS | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
+  <link rel="stylesheet" type="text/css" href="https://esm.sh/emfed@1/toots.css">
+</head>
+
+<body>
+  <header class=top-head>
+    <h1><a href="/">LensKit</a></h1>
+    <nav class="top-nav" role="navigation">
+      <ul class=menu>
+        <li><a href="https://lkpy.lenskit.org">Documentation</a></li>
+        <li><a href="/research">Research</a>
+      </ul>
+    </nav>
+  </header>
+  <div class=shell>
+    {{ block "main" . }}
+    {{ .Content }}
+    {{ end }}
+  </div>
+  <footer>
+    Copyright © 2018–2024 Boise State University and LensKit Contributors.<br>
+    Problems? Suggestions? This site is <a href="https://github.com/lenskit/lenskit.org">public on Github</a>.
+  </footer>
+  <script data-goatcounter="https://lenskit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,6 @@
 node_modules
+/public/
+/resources/
 _site
 *.log
+.hugo_build.lock

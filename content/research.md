@@ -12,7 +12,8 @@ If you use LensKit in published research, cite:
 Michael D. Ekstrand. 2020. LensKit for Python: Next-Generation Software for Recommender Systems Experiments. In <cite>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</cite> (CIKM '20). doi <a href="https://dx.doi.org/10.1145/3340531.3412778">10.1145/3340531.3412778</a>. arXiv:<a href="https://arxiv.org/abs/1809.03125">1809.03125</a> [cs.IR]. 
 </div>
 
-BibTeX:
+<details>
+<summary>BibTeX</summary>
 
 ~~~bibtex
 @inproceedings{LKPY,
@@ -25,10 +26,16 @@ BibTeX:
    extra={arXiv:1809.03125}
 }
 ~~~
+</details>
+
+We would appreciate it if you sent a copy of your published paper to
+<ekstrand@acm.org>, so we can know where LensKit is being used and add it to
+this list.  Following is a list of papers that have used the Python version of
+LensKit; we maintain a [separate list](#java) of ones using the Java version.
 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F6655%2Fcollections%2F3TB3KT36%2Fitems%3Fkey%3DVFvZhZXIoHNBbzoLZ1IM2zgf%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
 
-## Original LensKit (Java)
+## Original LensKit (Java) {#java}
 
 If you publish research that uses the old Java version of LensKit, cite:
 
@@ -43,7 +50,8 @@ New York, NY, USA, 133-140. DOI=<a
 href="http://dx.doi.org/10.1145/2043932.2043958">10.1145/2043932.2043958</a>.
 </div>
 
-For your convenience, here is the BibTeX:
+<details>
+<summary>BibTeX</summary>
 
 ~~~bibtex
 @INPROCEEDINGS{LensKit,
@@ -59,13 +67,6 @@ For your convenience, here is the BibTeX:
     doi = "10.1145/2043932.2043958"
 }
 ~~~
-
-We would also appreciate it if you could send a PDF and citation for your article to <ekstrand@acm.org>, so we can know where all LensKit is being used.
-
-LensKit has been used in a number of published papers.  In this list, we have attempted to collect published research that has used the LensKit software in some capacity.
-
-<aside markdown="span">
-Is your project missing from this list? <a href="/connect/">Let us know</a>.
-</aside>
+</details>
 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F6655%2Fcollections%2FTJPPJ92X%2Fitems%3Fkey%3DVFvZhZXIoHNBbzoLZ1IM2zgf%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>

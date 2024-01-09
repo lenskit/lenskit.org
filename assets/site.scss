@@ -1,17 +1,17 @@
 @import url(https://fonts.bunny.net/css?family=bitter:400,400i,700|inconsolata:400,700);
 
-:root {
-  --text-font: "Bitter", serif;
-  --code-font: "Inconsolata", monospace;
+$text-font: "Bitter", serif;
+$code-font: "Inconsolata", monospace;
 
+$desktop-width: 700px;
+
+:root {
   --head-bg: #2e3436;
   --head-text: #eeeeec;
 }
 
-@custom-media --desktop (min-width: 700px);
-
 html {
-  font-family: var(--text-font);
+  font-family: $text-font;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
     list-style-position: inside;
   }
 
-  @media(--desktop) {
+  @media(min-width: $desktop-width) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +79,7 @@ body {
 }
 
 /* body */
-.shell article.main {
+.shell main.page {
   max-width: 9in;
   margin: 0 auto;
 }
@@ -142,7 +142,7 @@ footer {
     }
   }
 
-  @media(--desktop) {
+  @media(min-width: $desktop-width) {
     .banner {
       .logo {
         width: 5in;
@@ -179,8 +179,8 @@ footer {
 
 /* code */
 code, pre, tt {
-  font-family: var(--code-font);
+  font-family: $code-font;
 }
 pre {
-  padding-left: 2em;
+  padding: 0 1ex;
 }

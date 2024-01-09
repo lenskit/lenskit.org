@@ -1,0 +1,6 @@
+baseURL = 'https://lenskit.org/'
+languageCode = 'en-us'
+title = 'LensKit'
+
+[markup.goldmark.renderer]
+unsafe = true
