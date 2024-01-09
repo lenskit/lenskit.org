@@ -1,4 +1,7 @@
 [build]
-publish = "_site"
-command = "npm run build"
-environment = { NODE_VERSION = "18", NODE_ENV = "production" }
+publish = "public"
+command = "hugo"
+
+[build.environment]
+HUGO_VERSION = "0.121"
+NODE_ENV = "production"

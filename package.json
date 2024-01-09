@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "LensKit Web Site",
   "main": "index.js",
-  "scripts": {
-    "build": "gulp build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lenskit/lenskit.org.git"
@@ -18,36 +15,7 @@
   "homepage": "https://github.com/lenskit/lenskit.org#readme",
   "devDependencies": {
     "eslint": ">=7.22",
-    "netlify-cli": ">=3.10"
-  },
-  "jshintConfig": {
-    "esversion": 6,
-    "node": true
-  },
-  "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "esm": "^3.2.25",
-    "extend": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-buffer": "0.0.2",
-    "gulp-changed": "^4.0.2",
-    "gulp-gray-matter": "^3.0.1",
-    "gulp-if": "^3.0.0",
-    "gulp-ignore": "^3.0.0",
-    "gulp-layout": "0.0.4",
-    "gulp-load-plugins": "^2.0.6",
-    "gulp-markdown": "^6.0.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "handlebars": "^4.7.7",
-    "postcss": "^8.2.8",
-    "postcss-custom-media": "^8.0.0",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-nested": "^5.0.5"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
+    "netlify-cli": ">=3.10",
+    "prettier": "^3.1.1"
   }
 }
