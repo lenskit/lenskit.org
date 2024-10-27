@@ -15,7 +15,6 @@
   "homepage": "https://github.com/lenskit/lenskit.org#readme",
   "devDependencies": {
     "eslint": ">=7.22",
-    "netlify-cli": ">=3.10",
     "prettier": "^3.1.1"
   }
 }
